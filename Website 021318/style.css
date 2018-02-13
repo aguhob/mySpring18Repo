@@ -1,0 +1,85 @@
+/* to link this CSS file to the HTML file, just insert
+a tag within the head tag.
+<link rel="stylesheet" href="css/style.css?v=1.0">
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+body {
+    background-color: antiquewhite;
+}
+
+#firstDiv {
+    font-family: 'arial'
+}
+
+p {
+    color: black;
+    font-size: 12pt;
+    font-family: 'Merriweather', 'arial';
+    background-color: antiquewhite
+}
+
+p {
+    font-family: 'Merriweather', 'arial';
+}
+
+
+h1 {
+    font-family: 'Open+Sans', 'arial';
+
+}
+
+h2 {
+    font-family: 'Open+Sans', 'arial';
+
+}
+
+h3 {
+    font-family: 'Open+Sans', 'arial';
+
+}
+
+a:hover {
+    color: black;
+    font-size: 2em;
+}
+
+a:active {
+    color: red;
+}
+
+a:unvisited {
+    color: maroon;
+}
+
+a:visited {
+    color: red;
+    font-family: 'Merriweather', 'arial';
+}
+
+a {
+    color: maroon;
+}
+
+ul {
+      font-family: 'Merriweather', 'arial';  
+}
+
+img {
+    
+}
+
+
+/* Write comments here */
+/* CSS: Cascading Style Sheets */
+/* Select by elements, p, h1, div, etc. 
+Can also select by IDs or classes -- very specific */
+
+.className {
+    <can apply to any type of element. Via  <div class ="className"> >
+}
+
+#idName {
+    <only one element has this id via <p id="idName"> >
+}
