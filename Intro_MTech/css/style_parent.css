@@ -1,0 +1,155 @@
+/* to link this CSS file to the HTML file, just insert
+a tag within the head tag.
+<link rel="stylesheet" href="css/style.css?v=1.0">
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+body {
+    background-color: antiquewhite;
+}
+
+#box {
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+/* border radius gives rounded cornert */
+
+#sidebar {
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    float: right;
+}
+
+#parent1 {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+#parent2 {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+#parent3 {
+    float: right;
+    border: 3px solid #73AD21;
+}
+
+#parent4 {
+    clear: right;
+    border: 3px solid #73AD21;
+}
+
+#article {
+    width: 800px;
+    height: 2000px;
+    border: dotted 10px blue;
+    background-color: aquamarine;
+}
+
+#navigation a {
+    p3px;adding: 
+    font-size: 3em
+    font-weight: 600
+    text-decoration: none;
+    color: deeppink;
+    font-family: 'Merriweather'
+}
+
+#footer {
+    width: 800px;
+    height: 200px;
+    border: double 10px green;
+}
+
+p {
+    color: black;
+    font-size: 12pt;
+    font-family: 'Merriweather', 'arial';
+    background-color: antiquewhite
+}
+
+p {
+    font-family: 'Merriweather', 'arial';
+}
+
+
+h1 {
+    font-family: 'Open+Sans', 'arial';
+
+}
+
+h2 {
+    font-family: 'Open+Sans', 'arial';
+
+}
+
+h3 {
+    font-family: 'Open+Sans', 'arial';
+
+}
+
+a:hover {
+    color: black;
+    font-size: 2em;
+}
+
+a:active {
+    color: red;
+}
+
+a:unvisited {
+    color: maroon;
+}
+
+a:visited {
+    color: red;
+    font-family: 'Merriweather', 'arial';
+}
+
+a {
+    color: maroon;
+}
+
+ul {
+      font-family: 'Merriweather', 'arial';  
+}
+
+img {
+    
+}
+
+
+/* Write comments here */
+/* CSS: Cascading Style Sheets */
+/* Select by elements, p, h1, div, etc. 
+Can also select by IDs or classes -- very specific */
+
+.className {
+    <can apply to any type of element. Via  <div class ="className"> >
+}
+
+#idName {
+    <only one element has this id via <p id="idName"> >
+}
