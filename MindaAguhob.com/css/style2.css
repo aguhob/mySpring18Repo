@@ -59,9 +59,7 @@ a:active {
 }
 
 img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-    display: block;
     margin: 1.3em auto;
     max-width: 95%;
 
@@ -73,16 +71,4 @@ img {
     grid-template-columns: 50px 50px;
     grid-template-rows: 34px 34px;
     grid-gap: 5px;   /* controls when screen size changes) */
-}
-
-
-@keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
 }
