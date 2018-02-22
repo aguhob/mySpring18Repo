@@ -91,10 +91,3 @@ for ( var i = 0, i < 10; i++ ) {
 
 //Writing a function -- go to scripts4.js
 
-//function myFunction() {
-//    console.log("hi");
-//}
-//
-//myFunction();
-//myFunction();
-//myFunction();
