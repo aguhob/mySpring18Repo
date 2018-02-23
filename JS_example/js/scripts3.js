@@ -4,11 +4,11 @@
 
 //make variables
 //
-//var a = 1;
-//var b = 2;
-//var c = '1';
-//var s = "a";
-//var bl = true;
+var a = 1;
+var b = 2;
+var c = '1';
+var s = "a";
+var bl = true;
 
 // print separately
 //console.log(a);
@@ -85,7 +85,7 @@ var array1 = [ a, b, c, s, bl ];
 
 for ( var i = 0, i < 10; i++ ) {
     
-    
+    console.log(array1[i]);
 }
 
 

@@ -30,3 +30,6 @@ myFunction(1, 2);
 function myFunction(no1, no2) {
     console.log(no1 + no2);
 }
+
+
+
