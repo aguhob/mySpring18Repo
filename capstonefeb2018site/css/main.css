@@ -57,6 +57,26 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
+div.form  {
+    display: block;
+    text-align: center;
+}
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 ol, ul {
   list-style: none; }
 
